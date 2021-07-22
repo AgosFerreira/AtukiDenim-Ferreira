@@ -1,6 +1,34 @@
 .footer{
-	height: 120px;
-	text-align: center;
 	margin-top: 20px;
-	background: linear-gradient(#8fcbfcd4, #c8ecfcab);
+	background: #add9fd;
+}
+.textoNewsletter{
+	font-weight: 600;
+}
+@media(992px){
+	.input-group{
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+		}
+}
+ul.footer-lista{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0;
+}
+ul li.footer-links{
+	list-style-type: none;
+	font-weight: 600;
+	margin: 0.5em;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+.imagen-oca{
+	height: 30px;
+	margin-left: 5px;
+	margin-bottom: 15px;
+}
+.footer-a{
+	cursor: pointer;
 }

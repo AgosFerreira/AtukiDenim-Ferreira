@@ -4,6 +4,50 @@
 }
 .fotoMica{
 	height: 500px;
-	margin: 15px;
-	padding-left: 50px;
+}
+.imagenMica{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.textoMica{
+	font-weight: 600;
+}
+@media(min-width: 768px){
+	.imagenMica{
+		display: flex;
+    	flex-direction: row;
+    	flex-wrap: nowrap;
+    	align-content: center;
+    	justify-content: center;
+    	align-items: center;
+	}
+	.textoMica{
+		margin: auto;
+		font-weight: 600;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media(min-width: 992px){
+	.imagenMica{
+		margin: 50px !important;
+	}
+}
+.textoAgos{
+	font-weight: 600;
+}
+@media(min-width: 768px){
+	.imagenAgos{
+		
+	}
+	.textoAgos{
+		margin: auto;
+		font-weight: 600;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
