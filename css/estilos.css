@@ -1,0 +1,174 @@
+header {
+  border-bottom: 1px solid black; }
+
+h1 {
+  text-align: center;
+  font-weight: bold; }
+
+.fa-1x {
+  font-size: 1.5rem; }
+
+button.navbar-toggler.toggler-example {
+  cursor: pointer; }
+
+.navbar-toggler-icon {
+  background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger7.svg?color=BFE100"); }
+
+@media (min-width: 576px) {
+  .navbar-brand {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px; }
+  ul.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: .5em; }
+  ul li {
+    list-style-type: none; }
+  a {
+    text-decoration: none;
+    color: black; } }
+
+@media (min-width: 992px) {
+  header {
+    height: 120px; }
+  h1, a.navbar-brand {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 55px; }
+  button.navbar-toggler {
+    display: none; }
+  div#navbarSupportedContent1 {
+    display: block; }
+  ul.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: .5em; }
+  ul li {
+    list-style-type: none; }
+  a {
+    text-decoration: none;
+    color: black; }
+  li a:hover {
+    transition: 1ms;
+    font-weight: bold;
+    text-decoration: none;
+    color: black; } }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(#8fcbfcd4, white); }
+
+.subtitulo {
+  font-weight: bold;
+  font-size: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center; }
+
+.card-body {
+  height: 170px; }
+
+.card-title {
+  font-weight: 600;
+  margin: .5rem; }
+
+.card-text {
+  font-weight: 400;
+  margin: .5rem;
+  padding-bottom: 1rem; }
+
+#grilla {
+  height: 100%;
+  width: 100vh;
+  display: grid;
+  grid-template-areas: "produno proddos prodtres" "prodcuatro prodcinco prodseis" "titulo titulo ." "tabla tabla .";
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 100px 100px 100px 120px;
+  margin-left: 20px;
+  align-items: center;
+  justify-items: center; }
+
+.productoUno {
+  grid-area: produno; }
+
+.productoDos {
+  grid-area: proddos; }
+
+.productoTres {
+  grid-area: prodtres; }
+
+.productoCuatro {
+  grid-area: prodcuatro; }
+
+.productoCinco {
+  grid-area: prodcinco; }
+
+.productoSeis {
+  grid-area: prodseis; }
+
+.tablaTalles {
+  grid-area: titulo;
+  justify-items: start;
+  margin-left: 10px; }
+
+.tabla {
+  grid-area: tabla;
+  border: solid black 2px;
+  margin: 10px;
+  padding: 10px; }
+
+th {
+  color: #03a9f4; }
+
+.footer {
+  height: 120px;
+  text-align: center;
+  margin-top: 20px;
+  background: linear-gradient(#8fcbfcd4, #c8ecfcab); }
+
+.container {
+  margin-left: 0; }
+
+.row {
+  flex-wrap: nowrap; }
+
+.info {
+  font-weight: 600;
+  margin: .5rem; }
+
+.contenido {
+  font-weight: 400;
+  margin: .5rem; }
+
+.formulario {
+  margin: auto;
+  padding: 10px;
+  background-color: #8fcbfcd4;
+  width: 30%;
+  border: solid black 1px; }
+
+.infoForm {
+  width: 100px;
+  transition: all 1s; }
+
+#nombre:focus {
+  width: 200px; }
+
+#email:focus {
+  width: 200px; }
+
+.textoNosotros {
+  text-align: center;
+  font-weight: 600; }
+
+.fotoMica {
+  height: 500px;
+  margin: 15px;
+  padding-left: 50px; }

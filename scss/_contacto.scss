@@ -1,0 +1,37 @@
+.container{
+	margin-left: 0;
+}
+.row{
+	flex-wrap: nowrap;
+}
+@mixin info{
+	font-weight: 600;
+	margin: .5rem;
+}
+.info{
+	@include info;
+}
+@mixin contenido{
+	font-weight: 400;
+	margin: .5rem;
+}
+.contenido{
+	@include contenido;
+}
+.formulario{
+	margin: auto;
+	padding: 10px;
+	background-color: #8fcbfcd4;
+	width: 30%;
+	border: solid black 1px;
+}
+.infoForm{
+	width: 100px;
+	transition: all 1s;
+}
+#nombre:focus {
+	width: 200px;
+}
+#email:focus{
+	width: 200px;
+}
