@@ -1,6 +1,6 @@
 body{
 	font-family:'Open Sans', sans-serif;
-	background: linear-gradient(#8fcbfcd4, white);
+	background-color: white;
 }
 @mixin subtitulo{
 	font-weight: bold;
@@ -31,5 +31,5 @@ body{
 }
 .card:hover{
      transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  	 box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }

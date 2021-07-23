@@ -1,7 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(#8fcbfcd4, white); }
-
+}
 .subtitulo {
   font-weight: bold;
   font-size: 35px;
@@ -143,7 +142,10 @@ button.navbar-toggler.toggler-example {
   height: 100%;
   width: 100vh;
   display: grid;
-  grid-template-areas: "produno proddos prodtres" "prodcuatro prodcinco prodseis" "titulo titulo ." "tabla tabla .";
+  grid-template-areas: "produno proddos prodtres"
+ "prodcuatro prodcinco prodseis"
+ "titulo titulo ."
+ "tabla tabla .";
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 100px 100px 100px 120px;
   margin-left: 20px;
@@ -242,6 +244,3 @@ ul li.footer-links {
   height: 30px;
   margin-left: 5px;
   margin-bottom: 15px; }
-
-.footer-a {
-  cursor: pointer; }
