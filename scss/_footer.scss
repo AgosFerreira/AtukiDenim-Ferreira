@@ -5,10 +5,9 @@
 .textoNewsletter{
 	font-weight: 600;
 }
-@media(992px){
+@media(min-width: 992px){
 	.input-group{
-		align-items: center;
-		justify-content: center;
+		margin-left: 190px;
 	}
 }
 ul.footer-lista{

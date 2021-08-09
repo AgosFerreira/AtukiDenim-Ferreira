@@ -6,7 +6,7 @@ h1{
   font-weight: bold;
 }
 h1, a.navbar-brand{
-	color: #add9fd;
+	color: #add9fd !important;
 }
 .fa-1x {
 	font-size: 1.5rem;
@@ -73,6 +73,5 @@ button.navbar-toggler.toggler-example {
 	  transition: 1ms;
 	  font-weight: bold;
 	  text-decoration: none;
-	  `;
 	}
 }

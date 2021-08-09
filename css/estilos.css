@@ -92,8 +92,7 @@ button.navbar-toggler.toggler-example {
   li a:hover {
     transition: 1ms;
     font-weight: bold;
-    text-decoration: none;
-    color: black; } }
+    text-decoration: none; } }
 
 .textoNosotros {
   text-align: center;
@@ -179,11 +178,9 @@ button.navbar-toggler.toggler-example {
 .textoNewsletter {
   font-weight: 600; }
 
-@media (992px) {
+@media (min-width: 992px) {
   .input-group {
-    width: 50px;
-    align-items: center;
-    justify-content: center; } }
+    margin-left: 190px; } }
 
 ul.footer-lista {
   display: flex;
@@ -201,3 +198,6 @@ ul li.footer-links {
   height: 30px;
   margin-left: 5px;
   margin-bottom: 15px; }
+
+.btn-mujeres {
+  font-size: 35px; }
