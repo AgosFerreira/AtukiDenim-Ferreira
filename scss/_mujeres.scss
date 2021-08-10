@@ -1,3 +1,48 @@
 .btn-mujeres{
-	font-size: 35px;
+	width: 50%;
+}
+@media(min-width: 992px){
+	.btn-mujeres{
+		width: 25%
+	}
+}
+.btn-outline-info{
+	color: #add9fd;
+	border-color: #add9fd;
+}
+.btn-outline-info:focus{
+	box-shadow: #add9fd;
+}
+.show>.btn-outline-info.dropdown-toggle{
+	background-color: #add9fd;
+	border-color: #add9fd;
+}
+.btn-outline-info:hover{
+	background-color: #add9fd;
+	border-color: #add9fd; 
+}
+.show>.btn-outline-info.dropdown-toggle:focus{
+	box-shadow: none;
+}
+.btn-oultine-info.active:active{
+	background-color: #add9fd;
+	border-color: #add9fd;
+	box-shadow: none;
+}
+.titulo-tabla{
+	border-top: 1px solid black;
+	padding-top: 10px;
+	font-weight: 700;
+	font-size: 22px;
+}
+.table{
+	margin: auto;
+	width: 50%;
+	margin-bottom: 20px;
+}
+th{
+	color: #add9fd;
+}
+.talles{
+	color: black;
 }

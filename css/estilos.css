@@ -29,6 +29,9 @@ body {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06); }
 
+.fondo-nosotros {
+  background-color: #add9fd73; }
+
 header {
   border-bottom: 1px solid black; }
 
@@ -98,6 +101,16 @@ button.navbar-toggler.toggler-example {
   text-align: center;
   font-weight: 600; }
 
+.fondo-nosotros {
+  background-color: #add9fd73; }
+
+@media (min-width: 768px) {
+  .textoNosotros {
+    margin: auto;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px; } }
+
 .fotoMica {
   height: 500px; }
 
@@ -148,11 +161,26 @@ button.navbar-toggler.toggler-example {
 
 .info {
   font-weight: 600;
+  font-size: 25px;
   margin: .5rem; }
 
 .contenido {
   font-weight: 400;
-  margin: .5rem; }
+  margin: .5rem;
+  font-size: 20px; }
+
+.datos-show {
+  margin: auto; }
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px; }
+
+.icon-instagram {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px; }
 
 .formulario {
   margin: auto;
@@ -172,7 +200,6 @@ button.navbar-toggler.toggler-example {
   width: 200px; }
 
 .footer {
-  margin-top: 20px;
   background: #add9fd; }
 
 .textoNewsletter {
@@ -180,6 +207,7 @@ button.navbar-toggler.toggler-example {
 
 @media (min-width: 992px) {
   .input-group {
+    width: 75%;
     margin-left: 190px; } }
 
 ul.footer-lista {
@@ -194,10 +222,57 @@ ul li.footer-links {
   border-bottom: 1px solid black;
   padding-bottom: 10px; }
 
+ul li.footer-links a {
+  color: black; }
+
 .imagen-oca {
   height: 30px;
   margin-left: 5px;
   margin-bottom: 15px; }
 
 .btn-mujeres {
-  font-size: 35px; }
+  width: 50%; }
+
+@media (min-width: 992px) {
+  .btn-mujeres {
+    width: 25%; } }
+
+.btn-outline-info {
+  color: #add9fd;
+  border-color: #add9fd; }
+
+.btn-outline-info:focus {
+  box-shadow: #add9fd; }
+
+.show > .btn-outline-info.dropdown-toggle {
+  background-color: #add9fd;
+  border-color: #add9fd; }
+
+.btn-outline-info:hover {
+  background-color: #add9fd;
+  border-color: #add9fd; }
+
+.show > .btn-outline-info.dropdown-toggle:focus {
+  box-shadow: none; }
+
+.btn-oultine-info.active:active {
+  background-color: #add9fd;
+  border-color: #add9fd;
+  box-shadow: none; }
+
+.titulo-tabla {
+  border-top: 1px solid black;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 22px; }
+
+.table {
+  margin: auto;
+  width: 50%;
+  margin-bottom: 20px; }
+
+th {
+  color: #add9fd; }
+
+.talles {
+  color: black; }

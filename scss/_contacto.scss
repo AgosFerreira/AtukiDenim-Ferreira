@@ -4,19 +4,28 @@
 .row{
 	flex-wrap: nowrap;
 }
-@mixin info{
-	font-weight: 600;
-	margin: .5rem;
-}
 .info{
-	@include info;
-}
-@mixin contenido{
-	font-weight: 400;
+	font-weight: 600;
+	font-size: 25px;
 	margin: .5rem;
 }
 .contenido{
-	@include contenido;
+	font-weight: 400;
+	margin: .5rem;
+	font-size: 20px;
+}
+.datos-show{
+	margin: auto;
+}
+.icon{
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+}
+.icon-instagram{
+	width: 35px;
+	height: 35px;
+	margin-right: 5px;
 }
 .formulario{
 	margin: auto;

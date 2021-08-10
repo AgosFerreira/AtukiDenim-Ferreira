@@ -1,5 +1,4 @@
 .footer{
-	margin-top: 20px;
 	background: #add9fd;
 }
 .textoNewsletter{
@@ -7,6 +6,7 @@
 }
 @media(min-width: 992px){
 	.input-group{
+		width: 75%;
 		margin-left: 190px;
 	}
 }
@@ -21,6 +21,9 @@ ul li.footer-links{
 	margin: 0.5em;
 	border-bottom: 1px solid black;
 	padding-bottom: 10px;
+}
+ul li.footer-links a{
+	color: black;
 }
 .imagen-oca{
 	height: 30px;

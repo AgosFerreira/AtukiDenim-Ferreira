@@ -2,6 +2,17 @@
 	text-align: center;
 	font-weight: 600;
 }
+.fondo-nosotros{
+	background-color: #add9fd73;;
+}
+@media(min-width: 768px){
+	.textoNosotros{
+		margin: auto;
+		font-weight: 600;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
 .fotoMica{
 	height: 500px;
 }
