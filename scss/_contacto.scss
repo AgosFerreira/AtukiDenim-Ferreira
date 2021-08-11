@@ -14,33 +14,73 @@
 	margin: .5rem;
 	font-size: 20px;
 }
-.datos-show{
-	margin: auto;
+a.contenido{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+.borde{
+	border-bottom: 1px solid black;
+	width: 100%;
 }
 .icon{
-	width: 40px;
-	height: 40px;
-	margin-right: 5px;
+	width: 60px;
+	height: 35px;
+	margin-right: 10px;
 }
 .icon-instagram{
 	width: 35px;
 	height: 35px;
 	margin-right: 5px;
 }
-.formulario{
-	margin: auto;
-	padding: 10px;
-	background-color: #8fcbfcd4;
-	width: 30%;
+.icon-email{
+	width: 35px;
+	height: 35px;
+}
+.icon-whatsapp{
+	width: 35px;
+	height: 35px;
+}
+.icon-mapa{
+	width: 60px;
+	height: 35px;
+	margin-top: 20px;
+}
+form{
+	background-color: #add9fd73;
 	border: solid black 1px;
 }
-.infoForm{
-	width: 100px;
-	transition: all 1s;
+.info-form-sexo{
+	width: 75%;
 }
-#nombre:focus {
-	width: 200px;
+.info-form-nombre, .info-form-email{
+	width: 75%;
+	transition: 1s;
 }
-#email:focus{
-	width: 200px;
+.info-form-nombre:hover{
+	width: 100%;
+}
+.info-form-email:hover{
+	width: 100%;
+}
+@media(min-width: 758px){
+	.borde{
+		border-bottom: none;
+	}
+	.info-form-sexo{
+		width: 50%;
+	}
+	.info-form-nombre{
+		width: 100%;
+	}
+	.info-form-email{
+		width: 100%;
+	}
+}
+@media(min-width: 992px){
+	.icon-mapa{
+		width: 30px;
+		height: 30px;
+		margin-top: 10px;
+	}
 }
