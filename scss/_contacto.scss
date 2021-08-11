@@ -4,6 +4,9 @@
 .row{
 	flex-wrap: nowrap;
 }
+.fondo-contacto{
+	background-color: #add9fd73;
+}
 .info{
 	font-weight: 600;
 	font-size: 25px;
@@ -46,35 +49,68 @@ a.contenido{
 	height: 35px;
 	margin-top: 20px;
 }
+.icono-metodo-pago{
+	margin-top: 10px;
+}
 form{
-	background-color: #add9fd73;
+	background-color: #add9fd;
 	border: solid black 1px;
+	padding: 1.5rem;
 }
 .info-form-sexo{
-	width: 75%;
+	width: 50%;
 }
 .info-form-nombre, .info-form-email{
-	width: 75%;
+	width: 90%;
 	transition: 1s;
 }
 .info-form-nombre:hover{
-	width: 100%;
+	width: 110%;
 }
 .info-form-email:hover{
-	width: 100%;
+	width: 110%;
+}
+.col-form-label{
+	font-weight: 600;
+}
+.newsletter{
+	font-weight: 600;
 }
 @media(min-width: 758px){
 	.borde{
 		border-bottom: none;
 	}
+	.icon-mapa{
+		margin-left: 15px; 
+	}
+	.icon-metodo-pago{
+		margin-top: 20px;
+	}	
+	form{
+		width: 80%;
+		padding: 2rem;
+	}
+	.col-form-label{
+		margin-left: 1.5rem;
+	}
+	.info-form-nombre, .info-form-email{
+		width: 120%;
+		margin-left: 1.5rem;
+	}
+	.info-form-nombre:hover{
+		width: 150%;
+	}
+	.info-form-email:hover{
+		width: 150%;
+	}
 	.info-form-sexo{
-		width: 50%;
+		margin-left: 1.5rem;
 	}
-	.info-form-nombre{
-		width: 100%;
+	.newsletter{
+		margin-left: 1.5rem;
 	}
-	.info-form-email{
-		width: 100%;
+	.form-check-input{
+		margin-left: 1.5rem;
 	}
 }
 @media(min-width: 992px){
@@ -82,5 +118,26 @@ form{
 		width: 30px;
 		height: 30px;
 		margin-top: 10px;
+	}
+	form{
+		width: 70%;
+		padding: 2rem;
+	}
+	.info-form-nombre, .info-form-email{
+		width: 200%;
+		margin-left: 3rem;
+	}
+	.info-form-nombre:hover{
+		width: 250%;
+	}
+	.info-form-email:hover{
+		width: 250%;
+	}
+	.info-form-sexo{
+		width: 25%;
+		margin-left: 3rem;
+	}
+	.form-check-input{
+		margin-left: 3rem;
 	}
 }

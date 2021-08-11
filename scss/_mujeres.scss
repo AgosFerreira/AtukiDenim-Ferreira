@@ -21,10 +21,10 @@
 	background-color: #add9fd;
 	border-color: #add9fd; 
 }
-.show>.btn-outline-info.dropdown-toggle:focus{
-	box-shadow: none;
+.btn-outline-info:not(:disabled):not(.disabled):active:focus{
+	border-color: #add9fd;
 }
-.btn-oultine-info.active:active{
+.btn-outline-info:not(:disabled):not(.disabled):active{
 	background-color: #add9fd;
 	border-color: #add9fd;
 	box-shadow: none;
