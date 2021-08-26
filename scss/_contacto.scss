@@ -5,7 +5,7 @@
 	flex-wrap: nowrap;
 }
 .fondo-contacto{
-	background-color: #add9fd73;
+	background-color: $fondo-paginas;
 }
 .info{
 	font-weight: 600;
@@ -23,7 +23,7 @@ a.contenido{
 	cursor: pointer;
 }
 .borde{
-	border-bottom: 1px solid black;
+	border-bottom: $borde-abajo;
 	width: 100%;
 }
 .icon{
@@ -53,8 +53,8 @@ a.contenido{
 	margin-top: 10px;
 }
 form{
-	background-color: #add9fd;
-	border: solid black 1px;
+	background-color: $boton-marca;
+	border: $borde-abajo;
 	padding: 1.5rem;
 }
 .info-form-sexo{

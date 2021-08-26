@@ -1,13 +1,14 @@
 header{
-	border-bottom: 1px solid black;
+	border-bottom: $borde-abajo;
 }
 h1{
   text-align: center;
   font-weight: bold;
-}
-h1, a.navbar-brand{
-	color: #add9fd !important;
-	text-align: center;
+
+  	a.navbar-brand{
+		color: $boton-marca !important;
+		text-align: center;
+	}
 }
 .fa-1x {
 	font-size: 1.5rem;
@@ -29,13 +30,15 @@ button.navbar-toggler.toggler-example {
 		flex-direction: row;
 		justify-content: space-around;
 		margin-bottom: .5em;
-	}
-	ul li{
-		list-style-type: none;
-	}
-	ul li a{
-		text-decoration: none;
-		color: black;
+
+			li{
+				list-style-type: none;
+
+					a{
+						text-decoration: none;
+						color: black;
+					}
+			}
 	}
 }
 @media(min-width: 992px){
@@ -62,17 +65,20 @@ button.navbar-toggler.toggler-example {
 		flex-direction: row;
 		justify-content: space-around;
 		margin-bottom: .5em;
-	}
-	ul li{
-		list-style-type: none;
-	}
-	ul li a{
-		text-decoration: none;
-		color: black;
-	}
-	li a:hover {
-	  transition: 1ms;
-	  font-weight: bold;
-	  text-decoration: none;
+
+		li{
+			list-style-type: none;
+
+				a{
+					text-decoration: none;
+					color: black;
+
+						&:hover{
+							transition: 1ms;
+							font-weight: bold;
+							text-decoration: none;
+						}	
+				}
+		}
 	}
 }

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 .subtitulo {
   font-weight: bold;
@@ -32,23 +32,15 @@ body {
 .fondo-nosotros {
   background-color: #add9fd73; }
 
-.shopping-cart {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end; }
-
 header {
-  border-bottom: 1px solid black; }
+  border-bottom: solid black 1px; }
 
 h1 {
   text-align: center;
   font-weight: bold; }
-
-h1, a.navbar-brand {
-  color: #add9fd !important;
-  text-align: center; }
+  h1 a.navbar-brand {
+    color: #add9fd !important;
+    text-align: center; }
 
 .fa-1x {
   font-size: 1.5rem; }
@@ -69,11 +61,11 @@ button.navbar-toggler.toggler-example {
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: .5em; }
-  ul li {
-    list-style-type: none; }
-  ul li a {
-    text-decoration: none;
-    color: black; } }
+    ul.navbar-nav li {
+      list-style-type: none; }
+      ul.navbar-nav li a {
+        text-decoration: none;
+        color: black; } }
 
 @media (min-width: 992px) {
   header {
@@ -95,15 +87,15 @@ button.navbar-toggler.toggler-example {
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: .5em; }
-  ul li {
-    list-style-type: none; }
-  ul li a {
-    text-decoration: none;
-    color: black; }
-  li a:hover {
-    transition: 1ms;
-    font-weight: bold;
-    text-decoration: none; } }
+    ul.navbar-nav li {
+      list-style-type: none; }
+      ul.navbar-nav li a {
+        text-decoration: none;
+        color: black; }
+        ul.navbar-nav li a:hover {
+          transition: 1ms;
+          font-weight: bold;
+          text-decoration: none; } }
 
 .texto-nosotros {
   text-align: center;
@@ -208,7 +200,7 @@ a.contenido {
   cursor: pointer; }
 
 .borde {
-  border-bottom: 1px solid black;
+  border-bottom: solid black 1px;
   width: 100%; }
 
 .icon {
@@ -329,11 +321,10 @@ ul li.footer-links {
   list-style-type: none;
   font-weight: 600;
   margin: 0.5em;
-  border-bottom: 1px solid black;
+  border-bottom: solid black 1px;
   padding-bottom: 10px; }
-
-ul li.footer-links a {
-  color: black; }
+  ul li.footer-links a {
+    color: black; }
 
 .imagen-oca {
   height: 30px;
@@ -371,7 +362,7 @@ ul li.footer-links a {
   box-shadow: none; }
 
 .titulo-tabla {
-  border-top: 1px solid black;
+  border-top: solid black 1px;
   padding-top: 10px;
   font-weight: 700;
   font-size: 22px; }

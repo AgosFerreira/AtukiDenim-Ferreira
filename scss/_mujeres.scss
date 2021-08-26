@@ -7,30 +7,30 @@
 	}
 }
 .btn-outline-info{
-	color: #add9fd;
-	border-color: #add9fd;
+	color: $boton-marca;
+	border-color: $boton-marca;
 }
 .btn-outline-info:focus{
-	box-shadow: #add9fd;
+	box-shadow: $boton-marca;
 }
 .show>.btn-outline-info.dropdown-toggle{
-	background-color: #add9fd;
-	border-color: #add9fd;
+	background-color: $boton-marca;
+	border-color: $boton-marca;
 }
 .btn-outline-info:hover{
-	background-color: #add9fd;
-	border-color: #add9fd; 
+	background-color: $boton-marca;
+	border-color: $boton-marca; 
 }
 .btn-outline-info:not(:disabled):not(.disabled):active:focus{
-	border-color: #add9fd;
+	border-color: $boton-marca;
 }
 .btn-outline-info:not(:disabled):not(.disabled):active{
-	background-color: #add9fd;
-	border-color: #add9fd;
+	background-color: $boton-marca;
+	border-color: $boton-marca;
 	box-shadow: none;
 }
 .titulo-tabla{
-	border-top: 1px solid black;
+	border-top: $borde-abajo;
 	padding-top: 10px;
 	font-weight: 700;
 	font-size: 22px;
@@ -41,7 +41,7 @@
 	margin-bottom: 20px;
 }
 th{
-	color: #add9fd;
+	color: $boton-marca;
 }
 .talles{
 	color: black;

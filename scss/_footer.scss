@@ -1,5 +1,5 @@
 .footer{
-	background: #add9fd;
+	background: $boton-marca;
 	padding-top: 10px;
 }
 .texto-newsletter{
@@ -20,11 +20,12 @@ ul li.footer-links{
 	list-style-type: none;
 	font-weight: 600;
 	margin: 0.5em;
-	border-bottom: 1px solid black;
+	border-bottom: $borde-abajo;
 	padding-bottom: 10px;
-}
-ul li.footer-links a{
-	color: black;
+
+		a{
+			color: black;
+		}
 }
 .imagen-oca{
 	height: 30px;
